@@ -1,0 +1,281 @@
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main1{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 1226px;
+
+}
+.kopf1 {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 150px;
+
+}
+#kopfmenu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+#menutxt{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    right: 0px;
+}
+.menutt{
+    padding-right: 35px;
+
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: medium;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.15em;
+
+color: #000000;
+}
+#foto{
+    padding: 0;
+    margin: 0;
+    height: 159px;
+    left: 15px;
+}
+#fotobox{
+    margin-left: 35px;
+}
+
+.cocontainer{
+    height: 100vh;
+}
+.conteiner{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    
+}
+
+.vector{
+    position: absolute;
+    left: 0px;
+    width: 600px;
+    bottom: 0px;
+}
+.vector1{
+    position: absolute;
+    right: 0px;
+    width: 600px;
+}
+.comenublock{
+    width: 1407px;
+height: 457px;
+}
+.menublock{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+margin-top: 30px;
+align-items: center;
+width: 1407px;
+height: 457px;
+
+}
+.menutxt{
+margin: 0;
+
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.bordermenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+height: 360px;
+border-radius: 50px;
+background: rgba(255, 255, 255, 0.5);
+box-shadow: inset -5px -5px 20px rgba(83, 145, 171, 0.25), inset 5px 5px 20px rgba(83, 145, 171, 0.25);
+}
+.menucard{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 250px;
+height: 320px;
+border-radius: 60px;
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.38139005602240894) 100%);
+}
+.backfoto{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 50px 50px ;
+    overflow: hide;
+}
+.cardinfo{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 215px;
+height: 115px;
+}
+.cardfoto{
+    position: absolute;
+    
+    width: 186px;
+height: 186px;
+bottom: 11px;
+}
+.infoinfo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100px;
+    height: 57.5px;
+}
+.infotxt{
+margin: 0 0 5px 0;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.405em;
+
+color: #000000;
+}
+
+.infoprice{
+margin: 0;
+font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.15em;
+
+color: #000000;
+}
+.imginfo{
+    width: 50px;
+}
+
+.blocktxt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+    width: 100%;
+    height: 85px;
+    
+}
+
+
+#txt{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+    user-select: none;
+
+    width: 400px;
+    height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+#txt1{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+    right: 9px;
+    top: 0px;
+
+    user-select: none;
+
+width: 400px;
+height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #224D81;
+
+}
+#txt2{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 9px;
+    right: 0px;
+    top: 0px;
+
+    user-select: none;
+
+width: 400px;
+height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #5391AB;
+
+}

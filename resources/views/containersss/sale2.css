@@ -1,0 +1,268 @@
+a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main1{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+
+}
+.kopf1 {
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: 150px;
+
+}
+#kopfmenu{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+#menutxt{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    right: 0px;
+}
+.menutt{
+    padding-right: 35px;
+
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: medium;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.15em;
+
+color: #000000;
+}
+#foto{
+    padding: 0;
+    margin: 0;
+    height: 159px;
+    left: 15px;
+}
+#fotobox{
+    margin-left: 35px;
+}
+
+.cocontainer{
+    height: 100vh;
+}
+.conteiner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+    
+    
+}
+.left{
+    height:100%;
+    width: 460px;
+}
+.leftleft{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 460px;
+}
+.salefoto{
+    filter: drop-shadow(0px 10px 22px rgba(0, 0, 0, 0.4));
+    width: 607px;
+    height: 607px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 460px;
+    
+}
+.rightright{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 362px;
+height: 601px;
+    background: rgba(255, 255, 255, 0.5);
+box-shadow: inset 5px 5px 4px rgba(83, 145, 171, 0.25), inset -5px -5px 4px rgba(83, 145, 171, 0.25);
+border-radius: 60px;
+}
+.righttxt{
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+.smalltxt{
+    width: 305px;
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+.pricetxt{
+    font-family: 'Montserrat Alternates';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 117px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+}
+
+.saleblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 194px;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.5);
+box-shadow: inset 5px 5px 4px rgba(83, 145, 171, 0.25), inset -5px -5px 4px rgba(83, 145, 171, 0.25);
+    border-radius: 60px;
+}
+.saleblockfoto{
+    width: 160px;
+    height: 160px;
+}
+.vector{
+    width: 474px;
+    
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+}
+.vector1{
+    width: 710px;
+    
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.blocktxt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+    width: 100%;
+    height: 85px;
+    
+}
+
+
+#txt{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+    user-select: none;
+
+    width: 400px;
+    height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+#txt1{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0px;
+    right: 9px;
+    top: 0px;
+
+    user-select: none;
+
+width: 400px;
+height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #224D81;
+
+}
+#txt2{
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    bottom: 0;
+    left: 9px;
+    right: 0px;
+    top: 0px;
+
+    user-select: none;
+
+width: 400px;
+height: 64px;
+
+
+font-family: 'Nirmala UI';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #5391AB;
+
+}

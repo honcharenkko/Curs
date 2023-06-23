@@ -1,0 +1,3 @@
+@extends('template1')
+        @section('content1')
+        @endsection
